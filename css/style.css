@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap");
+  
+/* font-family: 'Wix Madefor Display', sans-serif; */
+
+/* font-family: 'Staatliches', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../img/Banner_marketing_site_estrategia_digital_roxo_branco_azul_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.descricao {
+  text-align: center;
+  width: 500px;
+}
+.descricao h1 {
+  text-shadow: 1px 1px 2px black;
+  color: aliceblue;
+  font-size: 45px;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 2px;
+}
+.descricao p {
+  color: antiquewhite;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.formulario {
+  background-color: azure;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 0px 14px 28px, rgba(0, 0, 0, 0.912) 0px 10px 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form h1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  margin: 35px auto;
+}
+.form input {
+  font-size: 17px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 350px;
+  margin: 5px auto;
+  border-radius: 7px;
+}
+.btn {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  background-color: #ef8b18;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+#mc-embedded-subscribe {
+  font-size: 30px;
+}
+.optionalParent {
+  margin-top: 60px;
+}
+.confirmacao{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(176, 174, 174, 0.222);
+  border-radius: 10px;
+  border: 1px solid aliceblue;
+  backdrop-filter: blur(7px);
+  text-align: center;
+  padding: 3%;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: rgb(5, 5, 5);
+  /* height: 400px; */
+  width: 500px auto;
+}
+.confirmacao h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.confirmacao h2{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.tag-confirma i {
+  color: #ef8b18;
+  font-size: 175px;
+}
+.direitos-reservados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
